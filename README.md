@@ -1,12 +1,51 @@
-Diagnostico Mk1 es un programa que clasifica los nùmeros ingresados por el usuario, pueden ser:
--Positivo
--Negativo
--Cero
--Fibonacci
--No Fibonacci
--Primo
--No primo
-En el diagrama se puede apreciar la ruta que tomara el programa dependiendo de la o las clasificaciones que tome cada nùmero, y se usaron colores diferentes en las lineas de ruta para denotar los procesos por separado.
-Resumen general de ruta: Sin importar si el nùmero es negativo, positivo o cero se busca clasificarlo en Fibonacci o No Fibonacci y Primo o no Primo adicionalmente se mjuestra la naturalez del signo del nùmero
-Si se cumple la condicion de que el nùmero es Fibonnaci o si se cumple la condicion de que el nùmero es Primo o ambas, se mostrara al usuario textualmente este resultado, de lo contrario no se mostrara
-Fin del programa
+ SEMANA 1: Diagnóstico Mk1
+-Descripción:
+
+Diagnóstico Mk1 es un programa diseñado para analizar un número ingresado por el usuario y clasificarlo según su signo o si es cero.
+
+El programa evalúa el número ingresado y lo clasifica en las siguientes categorías:
+
+-Positivo, Negativo o Cero
+
+-Fibonacci o No Fibonacci
+
+-Primo o No Primo
+
+Funcionamiento general:
+
+Sin importar si el número es positivo, negativo o cero, el programa siempre ejecuta los procesos de verificación para determinar si el número pertenece a la sucesión de Fibonacci y si es un número primo.
+Adicionalmente, se identifica y muestra la naturaleza del signo del número.
+
+Si el número cumple al menos una de las siguientes condiciones:
+
+-Es Fibonacci
+
+-Es Primo
+
+Cumple ambas condiciones
+
+el resultado correspondiente se mostrará al usuario.
+En caso contrario, dichas clasificaciones no se muestran.
+
+Diagrama de flujo
+
+El programa cuenta con un diagrama de flujo que representa la ruta lógica que sigue el sistema según las clasificaciones obtenidas.
+En este diagrama:
+
+Cada ruta está diferenciada mediante colores distintos
+
+Los colores permiten identificar de forma visual los procesos independientes y las decisiones tomadas durante la ejecución
+
+Ruta lógica:
+
+-El usuario ingresa un número
+
+-Se determina si es positivo, negativo o cero
+
+-Se evalúa si el número es Fibonacci o no Fibonacci
+
+-Se evalúa si el número es primo o no primo
+
+-Se muestran únicamente las clasificaciones relevantes al usuario
+
+Finaliza el programa
