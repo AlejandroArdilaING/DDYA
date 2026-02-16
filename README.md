@@ -77,7 +77,7 @@ En la tercera parte se implementa el algoritmo Insertion Sort en lenguaje Python
 
 Finaliza el programa
 
-#SEMANA 3:
+# SEMANA 3:
 
 Actualización del Programa de Estudiantes: Estrategia "Divide y Conquistarás"
 
