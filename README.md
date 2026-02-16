@@ -76,3 +76,31 @@ En la tercera parte se implementa el algoritmo Insertion Sort en lenguaje Python
 -Se muestran únicamente las clasificaciones relevantes al usuario
 
 Finaliza el programa
+
+#SEMANA 3:
+
+Actualización del Programa de Estudiantes: Estrategia "Divide y Conquistarás"
+
+Este proyecto actualiza el programa de los estudiantes utilizando la técnica de Divide y Conquistarás, realizando cambios significativos para mejorar su eficiencia. A continuación se detallan las modificaciones y análisis realizados:
+
+-Cambios Principales:
+
+La lista que anteriormente se encontraba dentro del programa ahora se divide a la mitad, resolviendo el programa en subproblemas más pequeños, lo que incrementa la eficiencia general.
+
+Se realizó un análisis completo del programa para identificar posibles soluciones y optimizar su funcionamiento.
+
+-Diagramas:
+
+Diagrama de flujo: Muestra la ruta específica que sigue el programa desde su inicio hasta el fin de la ejecución, incluyendo los diferentes caminos según los procesos internos.
+
+Diagrama de secuencia: Describe de manera detallada los procesos internos del programa desde la ejecución hasta la finalización.
+
+Diagrama de uso: Presenta de forma simplificada las tareas más importantes y la interacción entre el sistema y el usuario, indicando quién realiza cada acción.
+
+-Ejercicios y Análisis:
+
+Se incluyen ejercicios encontrados en la Semana 3 de las diapositivas.
+
+Se analizó el código y se aplicó el Teorema Maestro para determinar su complejidad, considerando su costo y número de ejecuciones (time).
+
+Finaliza programa
