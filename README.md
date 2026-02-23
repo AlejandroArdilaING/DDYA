@@ -107,7 +107,7 @@ Finaliza programa
 
 # SEMANA 4:
 
-## Actualización del Programa de Estudiantes
+# Actualización del Programa de Estudiantes
 
 Este proyecto desarrolla y analiza el **Programa de Estudiantes**, cuyo objetivo es determinar qué estudiantes aprueban una materia según una nota mínima establecida.
 
@@ -118,7 +118,7 @@ Durante esta semana se trabajó en:
 - Comparación entre enfoque lineal y estrategia Divide y Conquistarás.
 
 
-## Descripción del Programa
+# Descripción del Programa
 
 El programa:
 
@@ -130,9 +130,9 @@ El programa:
 6. Muestra el resultado final.
 
 
-## Diagramas Realizados
+# Diagramas Realizados
 
-### Diagrama de Flujo
+# Diagrama de Flujo
 Representa el proceso completo:
 - Inicio
 - Recorrido de la lista
@@ -140,7 +140,7 @@ Representa el proceso completo:
 - Agregar a lista de aprobados
 - Fin
 
-### Diagrama de Secuencia
+# Diagrama de Secuencia
 Describe la interacción entre:
 - Usuario
 - Programa
@@ -155,9 +155,9 @@ Define claramente:
 - Qué hace el sistema (evaluar, procesar y generar lista final).
   
 
-## Análisis de Complejidad
+# Análisis de Complejidad
 
-### Enfoque Implementado (Lineal)
+# Enfoque Implementado (Lineal)
 
 El algoritmo recorre la lista una sola vez.
 
@@ -205,7 +205,7 @@ T(n) = O(n log n)
 Se concluye que para este problema específico, el enfoque lineal O(n) es más eficiente que aplicar Divide y Conquistarás.
 
 
-## Conclusión
+# Conclusión
 
 - El algoritmo implementado es óptimo para el problema.
 - No requiere ciclos anidados.
