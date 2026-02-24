@@ -218,7 +218,12 @@ Se concluye que para este problema específico, el enfoque lineal O(n) es más e
 
 
 
+Diagrama de uso: Presenta de forma simplificada las tareas más importantes y la interacción entre el sistema y el usuario, indicando quién realiza cada acción.
 
+-Ejercicios y Análisis:
 
+Se incluyen ejercicios encontrados en la Semana 3 de las diapositivas.
 
+Se analizó el código y se aplicó el Teorema Maestro para determinar su complejidad, considerando su costo y número de ejecuciones (time).
 
+Finaliza programa
