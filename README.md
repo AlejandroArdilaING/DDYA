@@ -104,3 +104,126 @@ Se incluyen ejercicios encontrados en la Semana 3 de las diapositivas.
 Se analizó el código y se aplicó el Teorema Maestro para determinar su complejidad, considerando su costo y número de ejecuciones (time).
 
 Finaliza programa
+
+# SEMANA 4:
+
+# Actualización del Programa de Estudiantes
+
+Este proyecto desarrolla y analiza el **Programa de Estudiantes**, cuyo objetivo es determinar qué estudiantes aprueban una materia según una nota mínima establecida.
+
+Durante esta semana se trabajó en:
+
+- Modelado del sistema mediante diagramas.
+- Análisis formal de complejidad.
+- Comparación entre enfoque lineal y estrategia Divide y Conquistarás.
+
+
+# Descripción del Programa
+
+El programa:
+
+1. Recibe una lista de estudiantes con sus respectivas notas.
+2. Define una nota mínima aprobatoria (ej. 3.0).
+3. Recorre la lista.
+4. Evalúa cada nota.
+5. Genera una lista con los estudiantes aprobados.
+6. Muestra el resultado final.
+
+
+# Diagramas Realizados
+
+# Diagrama de Flujo
+Representa el proceso completo:
+- Inicio
+- Recorrido de la lista
+- Evaluación condicional
+- Agregar a lista de aprobados
+- Fin
+
+# Diagrama de Secuencia
+Describe la interacción entre:
+- Usuario
+- Programa
+- Evaluador
+- Lista de aprobados
+
+Incluye el ciclo que recorre cada estudiante y la condición de aprobación.
+
+### Diagrama de Uso
+Define claramente:
+- Qué hace el usuario (ingresar datos, solicitar resultados).
+- Qué hace el sistema (evaluar, procesar y generar lista final).
+  
+
+# Análisis de Complejidad
+
+# Enfoque Implementado (Lineal)
+
+El algoritmo recorre la lista una sola vez.
+
+Función de tiempo:
+
+T(n) = c1 + c2n
+
+Complejidad temporal:
+O(n)
+
+Complejidad espacial:
+O(n)
+
+Mejor caso:
+O(n)
+
+Peor caso:
+O(n)
+
+Se realizaron gráficas del mejor y peor caso, mostrando crecimiento lineal.
+
+
+## Aplicación de Divide y Conquistarás (Análisis Teórico)
+
+Se planteó una versión alternativa donde:
+
+- La lista se divide en dos mitades.
+- Cada mitad se resuelve como subproblema.
+- Se combinan los resultados.
+
+Estructura general:
+
+T(n) = 2T(n/2) + O(n)
+
+Aplicando el Teorema Maestro:
+
+a = 2  
+b = 2  
+f(n) = O(n)
+
+Resultado:
+
+T(n) = O(n log n)
+
+Se concluye que para este problema específico, el enfoque lineal O(n) es más eficiente que aplicar Divide y Conquistarás.
+
+
+# Conclusión
+
+- El algoritmo implementado es óptimo para el problema.
+- No requiere ciclos anidados.
+- Su crecimiento es lineal.
+- El análisis formal confirma su eficiencia.
+- Se realizó modelado estructural y análisis matemático completo.
+
+
+## Finaliza programa
+
+
+
+Diagrama de uso: Presenta de forma simplificada las tareas más importantes y la interacción entre el sistema y el usuario, indicando quién realiza cada acción.
+
+-Ejercicios y Análisis:
+
+Se incluyen ejercicios encontrados en la Semana 3 de las diapositivas.
+
+Se analizó el código y se aplicó el Teorema Maestro para determinar su complejidad, considerando su costo y número de ejecuciones (time).
+
+Finaliza programa
