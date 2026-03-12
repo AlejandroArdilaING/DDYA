@@ -230,7 +230,7 @@ Finaliza programa
 
 ## SEMANA 5
 
-# Sistema simple de atención de pacientes
+#Sistema simple de atención de pacientes
 
 ## Descripción
 
@@ -247,7 +247,6 @@ Sin embargo, dentro de cada grupo de pacientes se mantiene el **orden de llegada
 
 Una vez que un paciente es atendido, **se elimina del sistema**, simulando que su consulta ya terminó y que ya no forma parte de la lista de espera.
 
----
 
 # Cómo funciona el programa
 
@@ -277,7 +276,6 @@ Cuando todos los pacientes han sido ingresados, el sistema comienza a atenderlos
 
 Cada vez que un paciente es atendido, se elimina de la lista correspondiente. Este proceso continúa hasta que **no quedan pacientes en ninguna de las dos listas**, momento en el que el programa finaliza.
 
----
 
 # Ejemplo de ejecución
 
@@ -316,8 +314,6 @@ No quedan pacientes
 
 Este resultado muestra que el sistema respeta las reglas del problema: los pacientes críticos se atienden primero y dentro de cada grupo se respeta el orden en el que llegaron.
 
----
-
 # Conceptos de programación utilizados
 
 Este proyecto utiliza varios conceptos básicos de programación en Python que son comunes en cursos introductorios:
@@ -330,11 +326,6 @@ Este proyecto utiliza varios conceptos básicos de programación en Python que s
 
 Además, el programa permite entender el concepto de **colas con prioridad**, que es una estructura lógica utilizada en muchos sistemas reales, como hospitales, bancos, sistemas de soporte técnico y sistemas operativos.
 
----
-
-# Autor
-
-Proyecto realizado como parte de un **laboratorio académico de programación**, enfocado en el uso de estructuras básicas de Python y en la simulación de un sistema simple de atención de pacientes.
 
 
 
