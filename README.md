@@ -227,3 +227,117 @@ Se incluyen ejercicios encontrados en la Semana 3 de las diapositivas.
 Se analizó el código y se aplicó el Teorema Maestro para determinar su complejidad, considerando su costo y número de ejecuciones (time).
 
 Finaliza programa
+
+## SEMANA 5
+
+Evidencias semana 5: 
+
+https://youtu.be/2ECxbQYD4HY
+
+
+
+#Sistema simple de atención de pacientes
+
+## Descripción
+
+Este proyecto consiste en un programa sencillo desarrollado en **Python** que simula el funcionamiento básico de un sistema de atención en un centro médico. El objetivo principal del programa es organizar a los pacientes de acuerdo con su nivel de prioridad para que puedan ser atendidos de una manera más eficiente.
+
+En muchos centros médicos existen distintos niveles de urgencia. Algunos pacientes requieren atención inmediata debido a la gravedad de su condición, mientras que otros pueden esperar un poco más. Este programa representa esa situación mediante dos tipos de pacientes:
+
+* **Pacientes críticos**
+* **Pacientes normales**
+
+Los **pacientes críticos siempre tienen prioridad** sobre los pacientes normales. Esto significa que si en el sistema hay pacientes críticos esperando, ellos serán atendidos primero sin importar el orden en que hayan llegado los pacientes normales.
+
+Sin embargo, dentro de cada grupo de pacientes se mantiene el **orden de llegada**. Esto quiere decir que si llegan varios pacientes críticos, el primero que llegó será el primero en ser atendido. Lo mismo ocurre con los pacientes normales.
+
+Una vez que un paciente es atendido, **se elimina del sistema**, simulando que su consulta ya terminó y que ya no forma parte de la lista de espera.
+
+
+# Cómo funciona el programa
+
+El programa comienza pidiéndole al usuario que indique cuántos pacientes va a ingresar. Después de esto, el usuario debe escribir cada paciente indicando su tipo con una letra antes del nombre.
+
+Se utiliza la siguiente convención:
+
+* **cNombre** → paciente crítico
+* **nNombre** → paciente normal
+
+Por ejemplo:
+
+```
+cJuan
+nMaria
+cPedro
+```
+
+El programa analiza la primera letra de cada entrada para identificar el tipo de paciente. Dependiendo de esa letra, el nombre del paciente se guarda en una de dos listas:
+
+* una lista para **pacientes críticos**
+* una lista para **pacientes normales**
+
+De esta manera el programa puede mantener separados los dos tipos de pacientes y aplicar correctamente la prioridad de atención.
+
+Cuando todos los pacientes han sido ingresados, el sistema comienza a atenderlos. En cada paso el programa revisa primero si existen pacientes en la lista de críticos. Si hay pacientes críticos, el sistema atiende al primero de esa lista. Si no hay pacientes críticos esperando, entonces el sistema atiende al primer paciente de la lista de pacientes normales.
+
+Cada vez que un paciente es atendido, se elimina de la lista correspondiente. Este proceso continúa hasta que **no quedan pacientes en ninguna de las dos listas**, momento en el que el programa finaliza.
+
+
+# Ejemplo de ejecución
+
+### Entrada del usuario
+
+```
+4
+nLuis
+nAna
+cPedro
+cMaria
+```
+
+### Explicación
+
+1. El usuario indica que va a ingresar **4 pacientes**.
+2. Los dos primeros pacientes empiezan con **n**, lo que significa que son pacientes normales.
+3. Los dos siguientes empiezan con **c**, lo que indica que son pacientes críticos.
+4. El programa guarda los nombres en dos listas diferentes según su tipo.
+5. Cuando empieza el proceso de atención, el programa revisa primero la lista de pacientes críticos.
+6. Aunque los pacientes críticos llegaron después que algunos pacientes normales, se atienden primero porque tienen **mayor prioridad**.
+
+### Salida esperada
+
+```
+Criticos: ['Pedro', 'Maria']
+Normales: ['Luis', 'Ana']
+
+Atendiendo paciente critico: Pedro
+Atendiendo paciente critico: Maria
+Atendiendo paciente normal: Luis
+Atendiendo paciente normal: Ana
+
+No quedan pacientes
+```
+
+Este resultado muestra que el sistema respeta las reglas del problema: los pacientes críticos se atienden primero y dentro de cada grupo se respeta el orden en el que llegaron.
+
+# Conceptos de programación utilizados
+
+Este proyecto utiliza varios conceptos básicos de programación en Python que son comunes en cursos introductorios:
+
+* **Listas:** se utilizan para almacenar los pacientes de cada tipo.
+* **Condicionales (`if`, `elif`):** permiten determinar el tipo de paciente y decidir cuál debe ser atendido.
+* **Ciclos (`while`):** se utilizan para recorrer los pacientes ingresados y para continuar atendiendo hasta que no queden pacientes.
+* **Manipulación de strings:** se usa para identificar la primera letra que indica el tipo de paciente.
+* **Funciones:** el programa utiliza una función `main()` para organizar la ejecución del código.
+
+Además, el programa permite entender el concepto de **colas con prioridad**, que es una estructura lógica utilizada en muchos sistemas reales, como hospitales, bancos, sistemas de soporte técnico y sistemas operativos.
+
+
+
+
+
+
+
+
+
+
