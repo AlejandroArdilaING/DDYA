@@ -334,8 +334,115 @@ Además, el programa permite entender el concepto de **colas con prioridad**, qu
 
 
 
+## SEMANA 8:
+Sistema de Inventario con Árbol Binario de Búsqueda
+Descripción
 
+En este proyecto se implementa un sistema básico de inventario usando un árbol binario de búsqueda (BST). La idea es guardar computadores usando un identificador único (como un número de serie) y organizarlos automáticamente dentro de un árbol.
 
+Este trabajo se hizo como parte de un laboratorio para practicar estructuras de datos, especialmente cómo funcionan los árboles binarios en la vida real.
+
+Objetivo
+
+El objetivo principal fue entender cómo funciona un árbol binario de búsqueda implementándolo desde cero.
+
+También se buscaba:
+
+Practicar la inserción de datos en una estructura no lineal
+Implementar búsquedas eficientes
+Analizar el comportamiento del algoritmo
+Cómo funciona
+
+El sistema usa un árbol donde cada nodo puede tener máximo dos hijos: izquierdo y derecho.
+
+Inserción
+
+Cuando se agrega un dato:
+
+Si es menor que el actual, va a la izquierda
+Si es mayor, va a la derecha
+
+Esto se repite hasta encontrar un espacio vacío. Gracias a esto, el árbol se organiza solo.
+
+Búsqueda
+
+Para buscar un dato:
+
+Se empieza desde la raíz
+Se compara el valor
+Se decide si ir a la izquierda o derecha
+
+Esto hace que la búsqueda sea más rápida que revisar uno por uno.
+
+Recorridos
+
+También se pueden recorrer los datos de diferentes formas:
+
+Inorden (los muestra ordenados)
+Preorden
+Postorden
+Funcionalidades
+
+El sistema permite:
+
+Insertar computadores
+Buscar un computador por su identificador
+Mostrar los datos del árbol
+Organizar automáticamente la información
+Estructura del proyecto
+
+El proyecto está hecho en un notebook de Jupyter y está dividido de forma sencilla:
+
+Definición del nodo
+Funciones del árbol (insertar, buscar, etc.)
+Recorridos
+Pruebas
+
+La idea fue mantenerlo simple para enfocarse en la lógica.
+
+Complejidad
+
+En un caso normal:
+
+Inserción: O(log n)
+Búsqueda: O(log n)
+
+Pero si el árbol se desordena (por ejemplo, si todo se inserta en orden):
+
+Puede llegar a O(n)
+Pruebas
+
+Se hicieron pruebas básicas para comprobar que:
+
+Los datos se insertan correctamente
+La búsqueda funciona bien
+El árbol mantiene su estructura
+Uso
+
+Para usar el proyecto:
+
+Abrir el notebook
+Ejecutar las celdas
+Insertar datos
+Probar las funciones
+
+No se necesita instalar nada extra.
+
+Tecnologías
+Python
+Jupyter Notebook
+Limitaciones
+No tiene interfaz gráfica
+No se pueden eliminar nodos
+No hay balanceo del árbol
+
+Es un proyecto básico enfocado en aprendizaje.
+
+Posibles mejoras
+Agregar eliminación de nodos
+Implementar árboles balanceados
+Hacer una interfaz gráfica
+Guardar datos en archivos
 
 
 
