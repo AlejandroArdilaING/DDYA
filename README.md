@@ -444,7 +444,84 @@ Implementar árboles balanceados
 Hacer una interfaz gráfica
 Guardar datos en archivos
 
+## SEMANA 9:
 
+# Grafos con Recorridos BFS y DFS:
+
+-Descripción:
+
+En este proyecto se implementa un grafo usando una lista de adyacencia. La idea es representar nodos y sus conexiones de forma sencilla, y luego poder recorrerlos utilizando el algoritmo BFS (Breadth-First Search).
+
+Este trabajo se realizó como parte de un laboratorio para practicar estructuras de datos, especialmente cómo funcionan los grafos y sus recorridos.
+
+-Objetivo:
+
+El objetivo principal fue entender cómo funciona un grafo implementándolo desde cero.
+
+También se buscaba:
+
+Practicar el uso de estructuras no lineales
+Implementar recorridos de grafos
+Analizar el comportamiento del algoritmo BFS
+Cómo funciona
+
+El sistema usa un grafo representado como una lista de adyacencia, donde cada nodo tiene una lista de vecinos (nodos conectados).
+
+Inserción de nodos
+
+Cuando se agrega un nodo:
+
+Se verifica si ya existe
+Si no existe, se añade al grafo con una lista vacía
+Conexiones
+
+Para conectar nodos:
+
+Se agregan ambos nodos como vecinos entre sí
+Esto hace que la conexión sea bidireccional
+Recorrido BFS
+
+Para recorrer el grafo:
+
+Se empieza desde un nodo inicial
+Se usa una cola para ir guardando los nodos
+Se visitan primero los nodos más cercanos
+Se evita repetir nodos usando un conjunto de visitados
+Funcionalidades
+
+El sistema permite:
+
+Insertar nodos
+Crear conexiones entre nodos
+Mostrar la lista de adyacencia
+Recorrer el grafo con BFS
+Estructura del proyecto
+
+El proyecto está hecho en un notebook de Jupyter y está dividido de forma sencilla:
+
+Definición del grafo
+Funciones (agregar nodos, conexiones, BFS)
+Visualización de datos
+Pruebas
+
+La idea fue mantenerlo simple para enfocarse en la lógica.
+
+Complejidad:
+
+En esta implementación:
+
+Recorrido BFS: O(n²)
+
+Esto se debe al uso de listas como cola. Se podría optimizar usando otras estructuras.
+
+Pruebas:
+
+Se hicieron pruebas básicas para comprobar que:
+
+Los nodos se agregan correctamente
+No se repiten nodos
+Las conexiones funcionan bien
+El recorrido BFS funciona correctamente
 
 
 
