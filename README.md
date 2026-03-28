@@ -335,7 +335,11 @@ Además, el programa permite entender el concepto de **colas con prioridad**, qu
 
 
 ## SEMANA 8:
+
+EVIDENCIA CODIGO: https://youtube.com/shorts/T_4A6r698PE?feature=share
+
 Sistema de Inventario con Árbol Binario de Búsqueda
+
 Descripción
 
 En este proyecto se implementa un sistema básico de inventario usando un árbol binario de búsqueda (BST). La idea es guardar computadores usando un identificador único (como un número de serie) y organizarlos automáticamente dentro de un árbol.
