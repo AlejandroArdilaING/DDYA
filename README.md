@@ -523,7 +523,8 @@ No se repiten nodos
 Las conexiones funcionan bien
 El recorrido BFS funciona correctamente
 
-##SEMANA 15:
+## SEMANA 15:
+
 ## Proyecto de Grafos y Caminos Mínimos
 
 ##Descripción:
