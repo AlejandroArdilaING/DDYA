@@ -1,4 +1,4 @@
-#SEMANA 1: Diagnóstico Mk1 -Descripción:
+# SEMANA 1: Diagnóstico Mk1 -Descripción:
 
 Diagnóstico Mk1 es un programa diseñado para analizar un número ingresado por el usuario y clasificarlo según su signo o si es cero.
 
@@ -46,33 +46,22 @@ Ruta lógica:
 
 Finaliza el programa
 
-
 # SEMANA 2:
-Se analiza el caso de la clasificación de los estudiantes para saber que estudiantes aprobaron y cuales no, se debe realizar un programa en lenguaje de python para resolver este problema
-y que el resultado solo arroje los estudiantes reprobados
+Se analiza el caso de la clasificación de los estudiantes para saber que estudiantes aprobaron y cuales no, se debe realizar un programa en lenguaje de python para resolver este problema y que el resultado solo arroje los estudiantes reprobados
 
-Procedimiento general:
-Se da una lista con los resultados de los estudiantes y su nombre, el programa debe de leer esta lista y guardar el nombre de los usuarios cuya nota asociada sea reprobatoria y crear una lista con estos nombres para mostrarlos textualmente al usuario al finalizar el programa.
+Procedimiento general: Se da una lista con los resultados de los estudiantes y su nombre, el programa debe de leer esta lista y guardar el nombre de los usuarios cuya nota asociada sea reprobatoria y crear una lista con estos nombres para mostrarlos textualmente al usuario al finalizar el programa.
 
 El diagrama de flujo muestra la ruta exacta y resumida de que ruta adopta el programa al ser ejecutado y cual es el resultado final.
 
 Ruta logica:
 
--Se añade la lista con el nombre y nota de los estudiantes
--Lee la lista
--Clasifica a el estudiante segun su nota asociada
--Se crea una lista vacia
--Se añade a la lista vacia el nombre de los estudiantes con calificacion reprobatoria
--Se muestran los resultados de manera textual al usuario
+-Se añade la lista con el nombre y nota de los estudiantes -Lee la lista -Clasifica a el estudiante segun su nota asociada -Se crea una lista vacia -Se añade a la lista vacia el nombre de los estudiantes con calificacion reprobatoria -Se muestran los resultados de manera textual al usuario
 
 Finaliza el programa
 
 Archibos adjuntos:
 
--Descripción del problema
--Requerimientos(Historias de usuario)
--Diagramas de flujo
--Análisis de complejidad
+-Descripción del problema -Requerimientos(Historias de usuario) -Diagramas de flujo -Análisis de complejidad
 
 Ejercicios:
 
@@ -82,8 +71,524 @@ En la segunda parte se analiza la complejidad temporal de las funciones Mistery,
 
 En la tercera parte se implementa el algoritmo Insertion Sort en lenguaje Python, adaptado para ordenar una lista de números en orden descendente, y se muestra su ejecución mediante una función principal.
 
+-Se evalúa si el número es primo o no primo
+
+-Se muestran únicamente las clasificaciones relevantes al usuario
+
+Finaliza el programa
+
+# SEMANA 3:
+
+Actualización del Programa de Estudiantes: Estrategia "Divide y Conquistarás"
+
+Este proyecto actualiza el programa de los estudiantes utilizando la técnica de Divide y Conquistarás, realizando cambios significativos para mejorar su eficiencia. A continuación se detallan las modificaciones y análisis realizados:
+
+-Cambios Principales:
+
+La lista que anteriormente se encontraba dentro del programa ahora se divide a la mitad, resolviendo el programa en subproblemas más pequeños, lo que incrementa la eficiencia general.
+
+Se realizó un análisis completo del programa para identificar posibles soluciones y optimizar su funcionamiento.
+
+-Diagramas:
+
+Diagrama de flujo: Muestra la ruta específica que sigue el programa desde su inicio hasta el fin de la ejecución, incluyendo los diferentes caminos según los procesos internos.
+
+Diagrama de secuencia: Describe de manera detallada los procesos internos del programa desde la ejecución hasta la finalización.
+
+Diagrama de uso: Presenta de forma simplificada las tareas más importantes y la interacción entre el sistema y el usuario, indicando quién realiza cada acción.
+
+-Ejercicios y Análisis:
+
+Se incluyen ejercicios encontrados en la Semana 3 de las diapositivas.
+
+Se analizó el código y se aplicó el Teorema Maestro para determinar su complejidad, considerando su costo y número de ejecuciones (time).
+
+Finaliza programa
+
+# SEMANA 4:
+
+# Actualización del Programa de Estudiantes
+
+Este proyecto desarrolla y analiza el **Programa de Estudiantes**, cuyo objetivo es determinar qué estudiantes aprueban una materia según una nota mínima establecida.
+
+Durante esta semana se trabajó en:
+
+- Modelado del sistema mediante diagramas.
+- Análisis formal de complejidad.
+- Comparación entre enfoque lineal y estrategia Divide y Conquistarás.
 
 
+# Descripción del Programa
+
+El programa:
+
+1. Recibe una lista de estudiantes con sus respectivas notas.
+2. Define una nota mínima aprobatoria (ej. 3.0).
+3. Recorre la lista.
+4. Evalúa cada nota.
+5. Genera una lista con los estudiantes aprobados.
+6. Muestra el resultado final.
+
+
+# Diagramas Realizados
+
+# Diagrama de Flujo
+Representa el proceso completo:
+- Inicio
+- Recorrido de la lista
+- Evaluación condicional
+- Agregar a lista de aprobados
+- Fin
+
+# Diagrama de Secuencia
+Describe la interacción entre:
+- Usuario
+- Programa
+- Evaluador
+- Lista de aprobados
+
+Incluye el ciclo que recorre cada estudiante y la condición de aprobación.
+
+### Diagrama de Uso
+Define claramente:
+- Qué hace el usuario (ingresar datos, solicitar resultados).
+- Qué hace el sistema (evaluar, procesar y generar lista final).
+  
+
+# Análisis de Complejidad
+
+# Enfoque Implementado (Lineal)
+
+El algoritmo recorre la lista una sola vez.
+
+Función de tiempo:
+
+T(n) = c1 + c2n
+
+Complejidad temporal:
+O(n)
+
+Complejidad espacial:
+O(n)
+
+Mejor caso:
+O(n)
+
+Peor caso:
+O(n)
+
+Se realizaron gráficas del mejor y peor caso, mostrando crecimiento lineal.
+
+
+## Aplicación de Divide y Conquistarás (Análisis Teórico)
+
+Se planteó una versión alternativa donde:
+
+- La lista se divide en dos mitades.
+- Cada mitad se resuelve como subproblema.
+- Se combinan los resultados.
+
+Estructura general:
+
+T(n) = 2T(n/2) + O(n)
+
+Aplicando el Teorema Maestro:
+
+a = 2  
+b = 2  
+f(n) = O(n)
+
+Resultado:
+
+T(n) = O(n log n)
+
+Se concluye que para este problema específico, el enfoque lineal O(n) es más eficiente que aplicar Divide y Conquistarás.
+
+
+# Conclusión
+
+- El algoritmo implementado es óptimo para el problema.
+- No requiere ciclos anidados.
+- Su crecimiento es lineal.
+- El análisis formal confirma su eficiencia.
+- Se realizó modelado estructural y análisis matemático completo.
+
+
+## Finaliza programa
+
+
+
+Diagrama de uso: Presenta de forma simplificada las tareas más importantes y la interacción entre el sistema y el usuario, indicando quién realiza cada acción.
+
+-Ejercicios y Análisis:
+
+Se incluyen ejercicios encontrados en la Semana 3 de las diapositivas.
+
+Se analizó el código y se aplicó el Teorema Maestro para determinar su complejidad, considerando su costo y número de ejecuciones (time).
+
+Finaliza programa
+
+## SEMANA 5
+
+Evidencias semana 5: 
+
+https://youtu.be/2ECxbQYD4HY
+
+
+
+#Sistema simple de atención de pacientes
+
+## Descripción
+
+Este proyecto consiste en un programa sencillo desarrollado en **Python** que simula el funcionamiento básico de un sistema de atención en un centro médico. El objetivo principal del programa es organizar a los pacientes de acuerdo con su nivel de prioridad para que puedan ser atendidos de una manera más eficiente.
+
+En muchos centros médicos existen distintos niveles de urgencia. Algunos pacientes requieren atención inmediata debido a la gravedad de su condición, mientras que otros pueden esperar un poco más. Este programa representa esa situación mediante dos tipos de pacientes:
+
+* **Pacientes críticos**
+* **Pacientes normales**
+
+Los **pacientes críticos siempre tienen prioridad** sobre los pacientes normales. Esto significa que si en el sistema hay pacientes críticos esperando, ellos serán atendidos primero sin importar el orden en que hayan llegado los pacientes normales.
+
+Sin embargo, dentro de cada grupo de pacientes se mantiene el **orden de llegada**. Esto quiere decir que si llegan varios pacientes críticos, el primero que llegó será el primero en ser atendido. Lo mismo ocurre con los pacientes normales.
+
+Una vez que un paciente es atendido, **se elimina del sistema**, simulando que su consulta ya terminó y que ya no forma parte de la lista de espera.
+
+
+# Cómo funciona el programa
+
+El programa comienza pidiéndole al usuario que indique cuántos pacientes va a ingresar. Después de esto, el usuario debe escribir cada paciente indicando su tipo con una letra antes del nombre.
+
+Se utiliza la siguiente convención:
+
+* **cNombre** → paciente crítico
+* **nNombre** → paciente normal
+
+Por ejemplo:
+
+```
+cJuan
+nMaria
+cPedro
+```
+
+El programa analiza la primera letra de cada entrada para identificar el tipo de paciente. Dependiendo de esa letra, el nombre del paciente se guarda en una de dos listas:
+
+* una lista para **pacientes críticos**
+* una lista para **pacientes normales**
+
+De esta manera el programa puede mantener separados los dos tipos de pacientes y aplicar correctamente la prioridad de atención.
+
+Cuando todos los pacientes han sido ingresados, el sistema comienza a atenderlos. En cada paso el programa revisa primero si existen pacientes en la lista de críticos. Si hay pacientes críticos, el sistema atiende al primero de esa lista. Si no hay pacientes críticos esperando, entonces el sistema atiende al primer paciente de la lista de pacientes normales.
+
+Cada vez que un paciente es atendido, se elimina de la lista correspondiente. Este proceso continúa hasta que **no quedan pacientes en ninguna de las dos listas**, momento en el que el programa finaliza.
+
+
+# Ejemplo de ejecución
+
+### Entrada del usuario
+
+```
+4
+nLuis
+nAna
+cPedro
+cMaria
+```
+
+### Explicación
+
+1. El usuario indica que va a ingresar **4 pacientes**.
+2. Los dos primeros pacientes empiezan con **n**, lo que significa que son pacientes normales.
+3. Los dos siguientes empiezan con **c**, lo que indica que son pacientes críticos.
+4. El programa guarda los nombres en dos listas diferentes según su tipo.
+5. Cuando empieza el proceso de atención, el programa revisa primero la lista de pacientes críticos.
+6. Aunque los pacientes críticos llegaron después que algunos pacientes normales, se atienden primero porque tienen **mayor prioridad**.
+
+### Salida esperada
+
+```
+Criticos: ['Pedro', 'Maria']
+Normales: ['Luis', 'Ana']
+
+Atendiendo paciente critico: Pedro
+Atendiendo paciente critico: Maria
+Atendiendo paciente normal: Luis
+Atendiendo paciente normal: Ana
+
+No quedan pacientes
+```
+
+Este resultado muestra que el sistema respeta las reglas del problema: los pacientes críticos se atienden primero y dentro de cada grupo se respeta el orden en el que llegaron.
+
+# Conceptos de programación utilizados
+
+Este proyecto utiliza varios conceptos básicos de programación en Python que son comunes en cursos introductorios:
+
+* **Listas:** se utilizan para almacenar los pacientes de cada tipo.
+* **Condicionales (`if`, `elif`):** permiten determinar el tipo de paciente y decidir cuál debe ser atendido.
+* **Ciclos (`while`):** se utilizan para recorrer los pacientes ingresados y para continuar atendiendo hasta que no queden pacientes.
+* **Manipulación de strings:** se usa para identificar la primera letra que indica el tipo de paciente.
+* **Funciones:** el programa utiliza una función `main()` para organizar la ejecución del código.
+
+Además, el programa permite entender el concepto de **colas con prioridad**, que es una estructura lógica utilizada en muchos sistemas reales, como hospitales, bancos, sistemas de soporte técnico y sistemas operativos.
+
+
+
+## SEMANA 8:
+Sistema de Inventario con Árbol Binario de Búsqueda
+Descripción
+
+En este proyecto se implementa un sistema básico de inventario usando un árbol binario de búsqueda (BST). La idea es guardar computadores usando un identificador único (como un número de serie) y organizarlos automáticamente dentro de un árbol.
+
+Este trabajo se hizo como parte de un laboratorio para practicar estructuras de datos, especialmente cómo funcionan los árboles binarios en la vida real.
+
+Objetivo
+
+El objetivo principal fue entender cómo funciona un árbol binario de búsqueda implementándolo desde cero.
+
+También se buscaba:
+
+Practicar la inserción de datos en una estructura no lineal
+Implementar búsquedas eficientes
+Analizar el comportamiento del algoritmo
+Cómo funciona
+
+El sistema usa un árbol donde cada nodo puede tener máximo dos hijos: izquierdo y derecho.
+
+Inserción
+
+Cuando se agrega un dato:
+
+Si es menor que el actual, va a la izquierda
+Si es mayor, va a la derecha
+
+Esto se repite hasta encontrar un espacio vacío. Gracias a esto, el árbol se organiza solo.
+
+Búsqueda
+
+Para buscar un dato:
+
+Se empieza desde la raíz
+Se compara el valor
+Se decide si ir a la izquierda o derecha
+
+Esto hace que la búsqueda sea más rápida que revisar uno por uno.
+
+Recorridos
+
+También se pueden recorrer los datos de diferentes formas:
+
+Inorden (los muestra ordenados)
+Preorden
+Postorden
+Funcionalidades
+
+El sistema permite:
+
+Insertar computadores
+Buscar un computador por su identificador
+Mostrar los datos del árbol
+Organizar automáticamente la información
+Estructura del proyecto
+
+El proyecto está hecho en un notebook de Jupyter y está dividido de forma sencilla:
+
+Definición del nodo
+Funciones del árbol (insertar, buscar, etc.)
+Recorridos
+Pruebas
+
+La idea fue mantenerlo simple para enfocarse en la lógica.
+
+Complejidad
+
+En un caso normal:
+
+Inserción: O(log n)
+Búsqueda: O(log n)
+
+Pero si el árbol se desordena (por ejemplo, si todo se inserta en orden):
+
+Puede llegar a O(n)
+Pruebas
+
+Se hicieron pruebas básicas para comprobar que:
+
+Los datos se insertan correctamente
+La búsqueda funciona bien
+El árbol mantiene su estructura
+Uso
+
+Para usar el proyecto:
+
+Abrir el notebook
+Ejecutar las celdas
+Insertar datos
+Probar las funciones
+
+No se necesita instalar nada extra.
+
+Tecnologías
+Python
+Jupyter Notebook
+Limitaciones
+No tiene interfaz gráfica
+No se pueden eliminar nodos
+No hay balanceo del árbol
+
+Es un proyecto básico enfocado en aprendizaje.
+
+Posibles mejoras
+Agregar eliminación de nodos
+Implementar árboles balanceados
+Hacer una interfaz gráfica
+Guardar datos en archivos
+
+## SEMANA 9:
+
+# Grafos con Recorridos BFS y DFS:
+
+-Descripción:
+
+En este proyecto se implementa un grafo usando una lista de adyacencia. La idea es representar nodos y sus conexiones de forma sencilla, y luego poder recorrerlos utilizando el algoritmo BFS (Breadth-First Search).
+
+Este trabajo se realizó como parte de un laboratorio para practicar estructuras de datos, especialmente cómo funcionan los grafos y sus recorridos.
+
+-Objetivo:
+
+El objetivo principal fue entender cómo funciona un grafo implementándolo desde cero.
+
+También se buscaba:
+
+Practicar el uso de estructuras no lineales
+Implementar recorridos de grafos
+Analizar el comportamiento del algoritmo BFS
+Cómo funciona
+
+El sistema usa un grafo representado como una lista de adyacencia, donde cada nodo tiene una lista de vecinos (nodos conectados).
+
+Inserción de nodos
+
+Cuando se agrega un nodo:
+
+Se verifica si ya existe
+Si no existe, se añade al grafo con una lista vacía
+Conexiones
+
+Para conectar nodos:
+
+Se agregan ambos nodos como vecinos entre sí
+Esto hace que la conexión sea bidireccional
+Recorrido BFS
+
+Para recorrer el grafo:
+
+Se empieza desde un nodo inicial
+Se usa una cola para ir guardando los nodos
+Se visitan primero los nodos más cercanos
+Se evita repetir nodos usando un conjunto de visitados
+Funcionalidades
+
+El sistema permite:
+
+Insertar nodos
+Crear conexiones entre nodos
+Mostrar la lista de adyacencia
+Recorrer el grafo con BFS
+Estructura del proyecto
+
+El proyecto está hecho en un notebook de Jupyter y está dividido de forma sencilla:
+
+Definición del grafo
+Funciones (agregar nodos, conexiones, BFS)
+Visualización de datos
+Pruebas
+
+La idea fue mantenerlo simple para enfocarse en la lógica.
+
+Complejidad:
+
+En esta implementación:
+
+Recorrido BFS: O(n²)
+
+Esto se debe al uso de listas como cola. Se podría optimizar usando otras estructuras.
+
+Pruebas:
+
+Se hicieron pruebas básicas para comprobar que:
+
+Los nodos se agregan correctamente
+No se repiten nodos
+Las conexiones funcionan bien
+El recorrido BFS funciona correctamente
+
+##SEMANA 15:
+## Proyecto de Grafos y Caminos Mínimos
+
+##Descripción:
+
+Este proyecto consiste en el desarrollo de un sistema en Python enfocado en el análisis de caminos mínimos dentro de diferentes grafos. El programa permite representar grafos mediante estructuras de datos y calcular la ruta más corta entre un nodo inicial y un nodo final.
+
+El sistema trabaja con varios ejercicios que contienen diferentes configuraciones de grafos, permitiendo comparar resultados y observar cómo se comportan los cálculos de distancia mínima. Además, el programa muestra no solo el costo mínimo encontrado, sino también el recorrido completo que debe seguirse para llegar al destino.
+
+Todo el funcionamiento se maneja mediante un menú interactivo en consola, facilitando la selección de ejercicios y la visualización de resultados de forma clara y organizada.
+
+## Objetivo General:
+
+Desarrollar un programa capaz de calcular caminos mínimos entre nodos de distintos grafos y presentar los resultados de manera sencilla para el usuario.
+
+## Objetivos Específicos:
+
+Representar grafos utilizando diccionarios en Python.
+Calcular rutas mínimas entre nodos.
+Mostrar las distancias encontradas hacia todos los nodos.
+Visualizar el recorrido más corto encontrado.
+Permitir la interacción del usuario mediante un menú.
+Validar opciones ingresadas para evitar errores de ejecución.
+Funcionamiento del Programa
+
+El programa inicia mostrando un menú principal donde el usuario puede seleccionar uno de los ejercicios disponibles. Cada ejercicio trabaja con un grafo diferente y realiza el cálculo de la ruta mínima desde un nodo inicial hasta un nodo final.
+
+Una vez seleccionado el ejercicio, el sistema procesa la información del grafo y muestra:
+
+El grafo original.
+La distancia mínima encontrada.
+El camino recorrido entre nodos.
+Las distancias desde el nodo inicial hacia todos los demás nodos.
+
+El usuario puede volver al menú principal para ejecutar otro ejercicio o finalizar el programa.
+
+## Características del Proyecto:
+Interfaz sencilla basada en consola.
+Código organizado mediante funciones.
+Uso de estructuras de datos para representar grafos.
+Validación de entradas del usuario.
+Resultados mostrados de forma clara y ordenada.
+Ejecución de múltiples ejercicios dentro del mismo programa.
+Tecnologías Utilizadas
+
+## Durante el desarrollo del proyecto se utilizaron las siguientes tecnologías y conceptos:
+
+Python
+Diccionarios
+Grafos dirigidos
+Algoritmos de caminos mínimos
+Programación estructurada
+Consola interactiva
+Aplicación del Proyecto
+
+Este tipo de programas puede aplicarse en problemas relacionados con:
+
+Rutas de transporte.
+Sistemas de navegación.
+Redes de comunicación.
+Optimización de recorridos.
+Análisis de conexiones entre nodos.
+
+## Conclusión:
+
+El proyecto permitió aplicar conceptos de grafos y caminos mínimos mediante un sistema funcional desarrollado en Python. Además de reforzar el uso de estructuras de datos y funciones, también ayudó a comprender cómo calcular rutas óptimas y representar conexiones entre nodos de manera práctica.
 
 
 
